@@ -40,6 +40,17 @@ a:hover {
     transition: 0.4s;
 }
 
+a li {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a li:hover {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 5px 2px 3px blanchedalmond;
+    transition: 0.4s;
+}
+
 .content span #top:hover {
     color: rgba(255, 255, 255, 0);
     text-shadow: 5px 2px 3px blanchedalmond;
