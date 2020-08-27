@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    width: 100%;
+    color: blanchedalmond;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.543);
+    padding: 2em;
+    justify-content: space-around;
+    position: relative;
+    text-decoration: underline;
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 5px 2px 3px blanchedalmond;
+    transition: 0.4s;
+}
+
+.content span #top:hover {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 5px 2px 3px blanchedalmond;
+    transition: 0.4s;
+}
+body nav a {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-rendering: optimizeSpeed;
+    text-decoration: none;
+    margin-right: 4rem;
+    font-size: 30px;
+}
+.content {
+    padding: 7em 0 0 0;
+    background-color: rgba(0, 0, 0, 0.543);
+    height: max-content;
+}
+
+.content h3 {
+    color: blanchedalmond;
+    font-size: 20px;
+    padding-left: 40px;
+    display: block;
+    cursor: default;
+}
+
+.content span #top {
+    margin-left: 7em;
+    color: blanchedalmond;
+}
+
+.content h3:hover {
+    transform: rotate3d(1, 0, 0, 720deg);
+    transition: 0.5s;
+}
+
+.content .cc {
+    transition: ease-in 1s;
+}
+.Cont {
+    width: 80%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.543);
+    height: max-content;
+    box-shadow: 3px 5px 9px black;
+    font-size: 17px;
+    margin-left: 7em;
+    color: black;
+}
+
+.quote {
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.543);
+    height: max-content;
+    box-shadow: 3px 5px 9px black;
+    font-size: 17px;
+    margin-left: 7em;
+    color: black;
+}
